@@ -4,6 +4,16 @@ Tutte le modifiche del firmware, dell'app e dell'hardware di Spin2Call, il telef
 
 ---
 
+## [0.2.0] - 2026-10-20
+### Telefono
+- **Il modem 56k.** Ogni tanto, alzando la cornetta, invece del tono di centrale si sente l'handshake di un vecchio modem: la composizione del numero, il tono di risposta a 2100 Hz, i fruscii e i bip dei due modem che si mettono d'accordo. Dura circa 18 secondi; appena giri il disco si interrompe, e finito il suono torna il tono di centrale.
+- **Numero di servizio 56**: componendolo parte subito, per riascoltarlo quando vuoi.
+
+### App
+- Nuova opzione **Rumore del modem 56k** nelle impostazioni: mai, ogni tanto (una volta su dieci), spesso (una su tre), sempre. Di serie: ogni tanto.
+
+---
+
 ## [0.1.0] - 2026-10-20
 ### Telefono
 - **Prima versione**: telefono a disco SIP (Siemens S62 "Bigrigio") collegato al cellulare come vivavoce Bluetooth. Si compone col disco, squilla la campanella originale, si parla dalla cornetta originale.
