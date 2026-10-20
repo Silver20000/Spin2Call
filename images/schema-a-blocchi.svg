@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="freccia" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect width="920" height="470" rx="14" fill="#faf7f2" stroke="#d9d2c5"/>
+  <text x="460" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#3b2f26">Come è fatto Spin2Call</text>
+
+  <!-- cellulare e app -->
+  <rect x="30" y="150" width="170" height="110" rx="12" fill="#e8f0fb" stroke="#6a8fc7" stroke-width="2"/>
+  <text x="115" y="192" text-anchor="middle" font-size="17" font-weight="700" fill="#1f3d6b">Cellulare</text>
+  <text x="115" y="216" text-anchor="middle" font-size="13" fill="#1f3d6b">Android o iPhone</text>
+  <text x="115" y="236" text-anchor="middle" font-size="13" fill="#1f3d6b">fa le chiamate</text>
+
+  <rect x="30" y="330" width="170" height="90" rx="12" fill="#efe9fb" stroke="#8a79c9" stroke-width="2"/>
+  <text x="115" y="368" text-anchor="middle" font-size="17" font-weight="700" fill="#3d2f6b">App Spin2Call</text>
+  <text x="115" y="392" text-anchor="middle" font-size="13" fill="#3d2f6b">Android</text>
+
+  <!-- ESP32 -->
+  <rect x="330" y="120" width="230" height="200" rx="14" fill="#e6f4e8" stroke="#4f9d5d" stroke-width="2"/>
+  <text x="445" y="160" text-anchor="middle" font-size="22" font-weight="700" fill="#1d4d28">ESP32</text>
+  <text x="445" y="190" text-anchor="middle" font-size="13" fill="#1d4d28">il cervello del telefono</text>
+  <text x="445" y="224" text-anchor="middle" font-size="13" fill="#1d4d28">• vivavoce Bluetooth</text>
+  <text x="445" y="246" text-anchor="middle" font-size="13" fill="#1d4d28">• legge disco e gancio</text>
+  <text x="445" y="268" text-anchor="middle" font-size="13" fill="#1d4d28">• toni, eco e rumore</text>
+  <text x="445" y="290" text-anchor="middle" font-size="13" fill="#1d4d28">• aggiornamenti</text>
+
+  <!-- blocchi a destra -->
+  <rect x="690" y="62" width="200" height="66" rx="12" fill="#fdf0e0" stroke="#d99a4a" stroke-width="2"/>
+  <text x="790" y="90" text-anchor="middle" font-size="15" font-weight="700" fill="#6b4210">Disco e gancio</text>
+  <text x="790" y="110" text-anchor="middle" font-size="12" fill="#6b4210">gli originali, intatti</text>
+
+  <rect x="690" y="148" width="200" height="66" rx="12" fill="#fdf0e0" stroke="#d99a4a" stroke-width="2"/>
+  <text x="790" y="176" text-anchor="middle" font-size="15" font-weight="700" fill="#6b4210">Suoneria</text>
+  <text x="790" y="196" text-anchor="middle" font-size="12" fill="#6b4210">la campanella vera, a 35 V</text>
+
+  <rect x="690" y="234" width="200" height="66" rx="12" fill="#fdf0e0" stroke="#d99a4a" stroke-width="2"/>
+  <text x="790" y="262" text-anchor="middle" font-size="15" font-weight="700" fill="#6b4210">Microfono</text>
+  <text x="790" y="282" text-anchor="middle" font-size="12" fill="#6b4210">capsula nuova nella cornetta</text>
+
+  <rect x="690" y="320" width="200" height="66" rx="12" fill="#fdf0e0" stroke="#d99a4a" stroke-width="2"/>
+  <text x="790" y="348" text-anchor="middle" font-size="15" font-weight="700" fill="#6b4210">Ricevitore</text>
+  <text x="790" y="368" text-anchor="middle" font-size="12" fill="#6b4210">quello d'epoca</text>
+
+  <!-- frecce -->
+  <line x1="200" y1="205" x2="328" y2="205" stroke="#555" stroke-width="2.5" marker-start="url(#freccia)" marker-end="url(#freccia)"/>
+  <text x="264" y="190" text-anchor="middle" font-size="12" fill="#444">Bluetooth</text>
+  <text x="264" y="226" text-anchor="middle" font-size="12" fill="#444">vivavoce</text>
+
+  <line x1="200" y1="375" x2="360" y2="375" stroke="#555" stroke-width="2.5" marker-start="url(#freccia)"/>
+  <line x1="360" y1="375" x2="400" y2="322" stroke="#555" stroke-width="2.5" marker-end="url(#freccia)"/>
+  <text x="280" y="362" text-anchor="middle" font-size="12" fill="#444">Bluetooth LE</text>
+  <text x="285" y="397" text-anchor="middle" font-size="12" fill="#444">impostazioni</text>
+  <text x="285" y="412" text-anchor="middle" font-size="12" fill="#444">e aggiornamenti</text>
+
+  <line x1="690" y1="95" x2="562" y2="165" stroke="#555" stroke-width="2.5" marker-end="url(#freccia)" transform="translate(0,0)"/>
+  <line x1="562" y1="190" x2="688" y2="181" stroke="#555" stroke-width="2.5" marker-end="url(#freccia)"/>
+  <line x1="690" y1="267" x2="562" y2="252" stroke="#555" stroke-width="2.5" marker-end="url(#freccia)"/>
+  <line x1="562" y1="285" x2="688" y2="353" stroke="#555" stroke-width="2.5" marker-end="url(#freccia)"/>
+</svg>
