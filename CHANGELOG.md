@@ -4,6 +4,13 @@ Tutte le modifiche del firmware, dell'app e dell'hardware di Spin2Call, il telef
 
 ---
 
+## [0.2.1] - 2026-10-20
+### Telefono
+- **Voce più pulita in chiamata.** Chi ascolta non sente più il gracchiare dovuto ai pacchetti audio incompleti: quando il telefono resta indietro di qualche campione, ora lo recupera invece di riempire il buco di silenzio.
+- **Meno fruscio nelle pause.** Il filtro che abbassa il microfono quando non parli ora si chiude davvero sul rumore di fondo, e lo abbassa di più (26 dB invece di 16).
+
+---
+
 ## [0.2.0] - 2026-10-20
 ### Telefono
 - **Il modem 56k.** Ogni tanto, alzando la cornetta, invece del tono di centrale si sente l'handshake di un vecchio modem: la composizione del numero, il tono di risposta a 2100 Hz, i fruscii e i bip dei due modem che si mettono d'accordo. Dura circa 18 secondi; appena giri il disco si interrompe, e finito il suono torna il tono di centrale.
