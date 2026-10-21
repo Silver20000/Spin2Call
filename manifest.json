@@ -1,0 +1,12 @@
+{
+  "version": "0.2.4",
+  "date": "2026-10-21",
+  "boards": {
+    "spin2call": {
+      "file": "spin2call.bin",
+      "size": 1000912,
+      "md5": "ad24685b8b2a3774f71a4e6e52391d64"
+    }
+  },
+  "notes": "### Telefono\n- **Lo step-up dei 35 V non scalda più.** Lo accende un relè solo quando la campana suona, e lo spegne pochi secondi dopo. Serve il relè sul GPIO18 (vedi lo schema dei collegamenti).\n- **La tua voce più calda.** Il filtro del microfono taglia sotto i 150 Hz invece che sotto i 300: passano i bassi della voce.\n\n### Hardware\n- Modulo relè per lo step-up, e un diodo con un condensatore da 1000 µF che separano l'alimentazione dell'ESP32: quando lo step-up si accende, l'ESP32 non si riavvia più."
+}
