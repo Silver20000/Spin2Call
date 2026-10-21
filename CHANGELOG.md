@@ -4,6 +4,12 @@ Tutte le modifiche del firmware, dell'app e dell'hardware di Spin2Call, il telef
 
 ---
 
+## [0.2.2] - 2026-10-21
+### Telefono
+- **Meno eco per chi ti ascolta.** Quando l'altro parla, il microfono della cornetta viene abbassato a meno che tu non parli più forte di lui: la sua voce, che dal ricevitore rientrava nel microfono, non gli torna più indietro.
+
+---
+
 ## [0.2.1] - 2026-10-20
 ### Telefono
 - **Voce più pulita in chiamata.** Chi ascolta non sente più il gracchiare dovuto ai pacchetti audio incompleti: quando il telefono resta indietro di qualche campione, ora lo recupera invece di riempire il buco di silenzio.
