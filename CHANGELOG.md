@@ -4,6 +4,16 @@ Tutte le modifiche del firmware, dell'app e dell'hardware di Spin2Call, il telef
 
 ---
 
+## [0.2.4] - 2026-10-21
+### Telefono
+- **Lo step-up dei 35 V non scalda più.** Lo accende un relè solo quando la campana suona, e lo spegne pochi secondi dopo. Serve il relè sul GPIO18 (vedi lo schema dei collegamenti).
+- **La tua voce più calda.** Il filtro del microfono taglia sotto i 150 Hz invece che sotto i 300: passano i bassi della voce.
+
+### Hardware
+- Modulo relè per lo step-up, e un diodo con un condensatore da 1000 µF che separano l'alimentazione dell'ESP32: quando lo step-up si accende, l'ESP32 non si riavvia più.
+
+---
+
 ## [0.2.3] - 2026-10-21
 ### Telefono
 - **Voce dell'altro limpida.** Il limitatore del volume nel ricevitore era troppo lento per il processore e con la voce in arrivo saltava un campione su dieci: voce grave e distorta per te, disturbi per l'altro. Ora è una formula veloce, e il volume di base è dimezzato (il cellulare manda la voce già quasi al massimo). Se ti sembra bassa, alza il volume dall'app.
