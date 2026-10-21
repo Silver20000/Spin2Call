@@ -4,6 +4,16 @@ Tutte le modifiche del firmware, dell'app e dell'hardware di Spin2Call, il telef
 
 ---
 
+## [0.2.3] - 2026-10-21
+### Telefono
+- **Voce dell'altro limpida.** Il limitatore del volume nel ricevitore era troppo lento per il processore e con la voce in arrivo saltava un campione su dieci: voce grave e distorta per te, disturbi per l'altro. Ora è una formula veloce, e il volume di base è dimezzato (il cellulare manda la voce già quasi al massimo). Se ti sembra bassa, alza il volume dall'app.
+- **Niente più eco per chi ti ascolta**, e niente scarica quando smette di parlare: mentre parla lui il microfono resta abbassato, e per un quarto di secondo dopo.
+- **Niente scariche nelle pause**: un filtro toglie i disturbi brevi sul filo del microfono.
+- **Squillo di libero nella cornetta** quando la chiamata parte dal cellulare con la cornetta alzata, invece del tono di centrale.
+- Processore a 240 MHz per avere margine sull'audio.
+
+---
+
 ## [0.2.2] - 2026-10-21
 ### Telefono
 - **Meno eco per chi ti ascolta.** Quando l'altro parla, il microfono della cornetta viene abbassato a meno che tu non parli più forte di lui: la sua voce, che dal ricevitore rientrava nel microfono, non gli torna più indietro.
